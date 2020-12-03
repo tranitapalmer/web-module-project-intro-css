@@ -24,17 +24,22 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 *{
-    border: 1px solid black;
-    margin:0;
-    padding:0;
-    max-width:100%;
+box-sizing:border-box;
+max-width:100%;
 }
 .imagecontainer{
-    width:40%;
+    width:40%
 }
+img {
+    border-radius: 50%;
+  }
 nav plan your visit{
     background-color:#FF764E;
 }
-@import url(https://fonts.google.com/specimen/Chelsea+Market?selection.family=Chelsea+Market|Sansita+Swashed:wght@300&query=chel#standard-styles);
-@import url(https://fonts.google.com/specimen/Roboto+Mono?selection.family=Chelsea+Market|Roboto+Mono:wght@200|Sansita+Swashed:wght@300&query=rob);
+
+
+
+
+
+
 
