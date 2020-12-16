@@ -23,14 +23,25 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 *{
 box-sizing:border-box;
-max-width:100%;
+border: 1px solid gray;
+max-width: width 100%;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
 }
 .imagecontainer{
-    width:40%
+    padding: 10px;
+    width:40%;
 }
 img {
+    padding: 10px;
     border-radius: 50%;
   }
 nav plan your visit{
