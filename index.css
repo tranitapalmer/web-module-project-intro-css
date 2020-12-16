@@ -35,19 +35,22 @@ html{
 body{
     font-size:1.6rem;
     line-height:1.5;
+    font-family:'Roboto Mono',monospace;
+    color: #4f4f4f;
 }
-.imagecontainer{
-    padding: 10px;
-    width:40%;
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size:5rem;
 }
-img {
-    padding: 10px;
-    border-radius: 50%;
-  }
-nav plan your visit{
-    background-color:#FF764E;
+span{
+    font-weight:bold;
 }
-
+a{
+    text-decoration:none;
+}
+section{
+    padding:4% 0;
+}
 
 
 
