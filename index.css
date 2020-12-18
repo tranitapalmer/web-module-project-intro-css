@@ -54,15 +54,15 @@ section{
 }
 nav{
     padding: 2% 0;
-    display:flex;
+    display: flex;
     justify-content: space-around;
 }
 nav a{
     display: inline-block;
     padding: 1% 0;
-    width:10%;
-    border-radius:10px;
-    text-align:center;
+    width:20%;
+    border-radius:20px;
+    text-align: center;
     color:#fff;
 }
 .orange{
@@ -75,22 +75,59 @@ nav a{
      background-color:#ffcd59;
 }
 header{
-    display:flex;
+        display: flex;
     justify-content: space-around;
 }
 .image{
+    padding: 1%;
+    border-radius: 400px;
     width:40%;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 .image .img{
+    padding: 10% 0;
     border-radius: 50%;
-    width:60%;
+    width:40%;
 }
 .title{
-    width:55%;
-    display: flex;
+    width:75%;
+    display: inline-block;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+.title div{
+    width:80%;
+}
+.main div{
+    background-color: #DDB9A3;
+    width: 80%;
+    margin: 0 auto;
+    padding:2%;
+    color:#fff;
+}
+.main div p{
+    margin:1% 0;
+}
+.camp{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.camp div{
+    width: 35%;
+    text-align: center;
+}
+.camp div img{
+    width:80%;
+}
+.bg-img{
+    background-image: url('assets/footer_img.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height:40vh;
+    background-attachment: fixed;
 }
