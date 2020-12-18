@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -27,7 +27,7 @@ time, mark, audio, video {
 *{
 box-sizing:border-box;
 border: 1px solid gray;
-max-width: width 100%;
+max-width: 100%;
 }
 html{
     font-size: 62.5%;
@@ -47,13 +47,50 @@ span{
 }
 a{
     text-decoration:none;
+    color: #4f4f4f;
 }
 section{
     padding:4% 0;
 }
-
-
-
-
-
-
+nav{
+    padding: 2% 0;
+    display:flex;
+    justify-content: space-around;
+}
+nav a{
+    display: inline-block;
+    padding: 1% 0;
+    width:10%;
+    border-radius:10px;
+    text-align:center;
+    color:#fff;
+}
+.orange{
+     background-color:#ff764e;
+}
+.blue{
+     background-color:#5ed3eb;
+}
+.yellow{
+     background-color:#ffcd59;
+}
+header{
+    display:flex;
+    justify-content: space-around;
+}
+.image{
+    width:40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.image .img{
+    border-radius: 50%;
+    width:60%;
+}
+.title{
+    width:55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
